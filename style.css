@@ -1,0 +1,95 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bi {
+  position: relative;
+  opacity: 0.9;
+  background-image: url(golden-gate.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+
+header {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-family: Papyrus, fantasy;
+  font-weight: bold;
+  color: DarkGoldenRod;
+  padding-bottom: 20px;
+  padding-top: 100px;
+}
+
+.button {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.button-enter {
+  font-family: Papyrus,fantasy;
+  text-transform: uppercase;
+  font-size: 50px;
+  border-radius: 10%;
+  border: 2px solid DarkGoldenRod;
+  background-color: rgba(0,0,0,0.1);
+  color: DarkGoldenRod;
+  opacity: 0.8;
+  width: 200px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.button-enter:hover {
+  color: White;
+  background-color: DarkGoldenRod;
+  border: 2px solid White;
+  opacity: 0.8;
+}
+
+.contact-form {
+  position: relative;
+  margin: 10px auto;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  padding-top: 10px;
+  font-family: arial;
+  font-size: 15px;
+  border: none;
+}
+
+.contact-form-logos {
+  position: relative;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.text1 {
+  padding-bottom: 10px;
+}
+.img-contact {
+  width: 25px;
+  height: 25px;
+  padding: 0 15px;
+}
+
+.img-contact:hover {
+ zoom:100px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  font-size: 15px;
+  font-family: arial;
+}
