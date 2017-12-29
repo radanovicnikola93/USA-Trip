@@ -20,6 +20,18 @@ body {
   margin: 0 auto;
 }
 
+.container img {
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.container img:hover {
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
 .footer h6 {
   text-align: center;
 }
